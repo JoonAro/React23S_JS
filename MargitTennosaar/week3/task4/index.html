@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <title>Task4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Task4</h1>
+    </header>
+    <h2>Calculator</h2>
+    <p>
+      Enter the price of gasoline and how much money you have to spend on gas
+      and the calculator will calculate the ammount of gas you can buy
+    </p>
+
+    <div>
+      <label for="price">Price</label>
+      <input type="number" id="price" placeholder="Enter gas price" />
+    </div>
+    <div>
+      <label for="money">Money</label>
+      <input type="number" id="money" placeholder="Money for gas" />
+    </div>
+    <!-- onchange="gasFund()" -->
+
+    <button onclick="gasFund()">Calculate</button>
+    <p id="answer"></p>
+    <script src="main.js"></script>
+  </body>
+</html>

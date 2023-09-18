@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Papa Don's Traditional Pizzeria</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Papa Don's Traditional Pizzeria</h1>
+    <div id="container">
+      <div class="form-wrap">
+        <form>
+            <div class="form-group">
+                <!-- <label for="name">Name</label> -->
+                <!-- <input type="text" name="name" id="name" placeholder="Your name here"> -->
+            </div>
+            <table id="size">
+                <thead>
+                    <tr>
+                        <td>Size</td>
+                        <td>Servings</td>
+                        <td>Price</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Small</td>
+                        <td>2</td>
+                        <td>7,50€</td>
+                        <td><input type="radio" name="radio" id="serving2" checked></td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>4</td>
+                        <td>10,50€</td>
+                        <td><input type="radio" name="radio" id="serving4"></td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>6</td>
+                        <td>12,50€</td>
+                        <td><input type="radio" name="radio" id="serving6"></td>
+                    </tr> 
+                    <tr>
+                        <td>XL</td>
+                        <td>8</td>
+                        <td>15,50€</td>
+                        <td><input type="radio" name="radio" id="serving8"></td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <h2>Choose 4 toppings, If you want more it's 0,50€ extra for each</h2>
+                    <table id="toppings">
+                    <thead>
+                        
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="topping1">Salami</td>
+                        <td><input type="checkbox" name="topping2">Ham</td>
+                        <td><input type="checkbox" name="topping3">Bacon</td>
+                        <td><input type="checkbox" name="topping4">Onion</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="topping5">Paprika</td>
+                        <td><input type="checkbox" name="topping6">Garlic</td>
+                        <td><input type="checkbox" name="topping7">Shroom</td>
+                        <td><input type="checkbox" name="topping8">Moldcheese</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="topping9">Tomato</td>
+                        <td><input type="checkbox" name="topping10">Tuna</td>
+                        <td><input type="checkbox" name="topping11">Chili</td>
+                        <td><input type="checkbox" name="topping12">Pineapple</td>
+                    </tr>
+                    
+                    
+                    
+                </tbody>
+            </table>
+            <p id="price"></p>
+            <!-- <div class="dropdown">
+                <button onclick="dropFunc()" class="dropButton">Delivery method</button>
+                <div id="mydropdown" class="dropdown-content">
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link3</a>
+                </div>
+
+            </div> -->
+            <div id="calculateButton">
+            <button onclick="priceCalc()">price</button>
+            </div>
+           <!--  <div class="form-group">
+                <label></label>
+                <input type="radio" name="radio" id="2" checked>2 servings 7,50€
+                <input type="radio" name="radio" id="4">4 servings 10,50€
+                <input type="radio" name="radio" id="6">6 servings 12,50
+                <input type="radio" name="radio" id="8">8 servings 15,50
+            </div>
+            <div class="form-group">
+                <label></label>
+                <input> -->
+            </div>
+          
+
+
+
+        </form>
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

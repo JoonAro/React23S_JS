@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(237, 144, 29);
+    color:rgb(43, 42, 42);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+    }
+    header {
+        background-color: rgb(233, 128, 0);
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    label {
+        display: inline-block;
+        width: 100px
+    }
+    p {
+        margin-bottom: 50px;
+        font-size:larger;
+    }
+    
+    div {
+        margin: 5px 0;
+    }
+    input, button {
+        font-family: inherit;
+        font-size: inherit;
+    }
+button {
+    background-color: rgb(203, 112, 0);
+    display:inline-block;
+    color: rgb(32, 32, 32);
+    margin: 107px;
+    height: 50px;
+    width: 120px;
+    border: 5px;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+input {
+    padding: 10px;
+    font-family: inherit;
+}

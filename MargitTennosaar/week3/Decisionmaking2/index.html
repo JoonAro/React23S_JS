@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Decision making app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <label for="userId"
+          >I know everything except your name... hint, hint...</label
+        >
+        <input type="string" id="userId" placeholder="Enter your name" />
+      </div>
+    </header>
+    <h1>Cranky old prophet</h1>
+    <h2>Ask me anything! But be warned: I have a bad temper.</h2>
+    <p id="userQuestionHtml"></p>
+    <p id="answer"></p>
+
+    <div>
+      <label for="question"></label>
+      <input
+        type="string"
+        id="question"
+        placeholder="What's troubling you this time?"
+      />
+    </div>
+
+    <p id="newQuestion">
+      Answer you might not expect is one button click away!
+    </p>
+    <button onclick="answerMachine()">Ask away</button>
+    <p>
+      Disclaimer: Don't let the prophet go under your skin. Answers are
+      unexpected and rude most of the time.
+    </p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
