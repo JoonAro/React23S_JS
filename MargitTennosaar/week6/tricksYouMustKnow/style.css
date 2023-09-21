@@ -25,8 +25,64 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position:relative;
 }
+
+
 
 li {
     display: inline-block;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 0.5rem 1rem;
+    background-color: darkkhaki;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+}
+/* button is fixed on bottomright of the window */
+#backToTop {
+position: fixed;
+bottom:2rem;
+right:2rem;
+}
+
+.mobile {
+    display:none;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+@media (max-width: 650px) {
+    body {
+        background-color: pink;
+        
+    }
+    nav ul {
+        display: none;
+
+    }
+    .mobile {
+        display: block;
+    }
+    .btn {
+        padding: 0.5rem;
+
+    }
+    ul.responsive {
+        display:block;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        width: 100%;
+
+    }
+}   ul.responsive {
+    display: block;
+    margin: 1rem;
 }
